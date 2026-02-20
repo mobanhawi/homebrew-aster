@@ -3,7 +3,7 @@ cask "aster" do
   name "aster"
   desc "Terminal disk usage analyzer for macOS"
   homepage "https://github.com/mobanhawi/aster"
-  version "0.3.0"
+  version "0.4.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "aster" do
   on_macos do
     on_intel do
       url "https://github.com/mobanhawi/aster/releases/download/v#{version}/aster_darwin_x86_64.tar.gz"
-      sha256 "96f27c8b27c6cdfc8273e7ae32c7b5c020d94d34b3c017e908a58305a9c399ed"
+      sha256 "20c3afcb8dc3dd27aca6a4da95d86184fcc03e517198c6445aa709c0657f0d8d"
     end
     on_arm do
       url "https://github.com/mobanhawi/aster/releases/download/v#{version}/aster_darwin_arm64.tar.gz"
-      sha256 "cc4927e9b94bc81f7a8f5d0305e5c2be5254906d17d2f514cf8ce155735e16b0"
+      sha256 "611c60f66d5ca92cc9bf123537d6e603cda1be28b49a421a232c3ba55dabeaa1"
     end
   end
 
